@@ -1,0 +1,48 @@
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    background: #364253;
+    color: #dadce7;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#app {
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1.5rem 1rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #4091dd;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5rem;
+    border: none;
+    width: max-content;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #4091dd, #28b4d2);
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+p:nth-child(1) {
+    padding-top: 1.3rem;
+}
+
+p {
+    color: #4091dd;
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+    padding: 0rem 1rem;
+}
